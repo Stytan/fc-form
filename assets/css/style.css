@@ -1,6 +1,30 @@
-form{
-  height: 800px;
+*{
+  margin: 5px;
+}
+
+.form-container{
+  height: 650px;
   width: 500px;
   border: 1px solid red;
   background-color: lightgreen;
+}
+
+fieldset{
+  border: none;
+  text-align: center;
+}
+
+legend{
+  color: red;
+  font-weight: bold;
+}
+
+#submit{
+  background: linear-gradient(rgb(252, 193, 85), rgb(223, 145, 0));
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
 }
